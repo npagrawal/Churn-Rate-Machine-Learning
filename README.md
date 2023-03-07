@@ -62,4 +62,4 @@ In the future, the model can be improved with:
 
 ## Links to Materials
 [Presentation](Which customers are unhappy.pdf)  
-[Jupyter Notebook](King_County_Analysis_Notebook.ipynb)
+[Jupyter Notebook](Analysis.ipynb)
