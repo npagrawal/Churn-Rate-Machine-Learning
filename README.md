@@ -61,5 +61,5 @@ In the future, the model can be improved with:
 - Including data on re-targeting to determine whether re-targeting hurts or helps.
 
 ## Links to Materials
-[Presentation](KingCounty_Slides.pdf)  
+[Presentation](Which customers are unhappy.pdf)  
 [Jupyter Notebook](King_County_Analysis_Notebook.ipynb)
