@@ -62,5 +62,5 @@ In the future, the model can be improved with:
 - Including data on re-targeting to determine whether re-targeting hurts or helps.
 
 ## Links to Materials
-[Presentation](Which customers are unhappy.pdf)  
-[Jupyter Notebook](Notebook Scratch.ipynb)
+[Presentation](https://github.com/npagrawal/Churn-Rate-ML/blob/main/Which%20customers%20are%20unhappy.pdf)  
+[Jupyter Notebook](https://github.com/npagrawal/Churn-Rate-ML/blob/main/Churn%20Rate%20Analysis.ipynb)
