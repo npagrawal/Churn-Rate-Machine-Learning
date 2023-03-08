@@ -14,6 +14,7 @@ The data comes from the ["Customer Churn"](https://www.kaggle.com/datasets/under
 
 Based on all of this, I recommend the company uses XGBoost Classifier moving forward to predict customer churn risk. I also suggest use membership category, village region, and customer care feedback to re-target customers.
 
+There is overfit present in this model and some of the others, which can be solved by improving the data and increasing the amount of data. I had to cut about a quarter of the data out of the analysis, so possibly determining why the values were negative would be a good start.
 
 ## Data Understanding
 
