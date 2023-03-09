@@ -22,15 +22,15 @@ The dataset contains columns focusing on customer site usage, customer transacti
 
 I began with some exploratory data analysis. We have an even split in our data between class 0 (not at risk of churn) and class 1(at risk of churn).
 
-<img src="images/data_split.png" width="750" align="center">
+<img src="images/datasplit.png" width="750" align="center">
 
 EDA further revealed that there are six types of membership. The majority of customers either hold "basic" membership or no membership at all. These categories are also most at risk of churn. "Platinum" members, by contrast, have no risk of churn.
 
-<img src="images/membership.png" width="750" align="center">
+<img src="images/membershipcategories.png" width="750" align="center">
 
 Points also seemed to be a solid indicator of the target, showing key areas that are dominated by class 0 or class 1 when graphed.
 
-<img src="images/points.png" width="750" align="center">
+<img src="images/points_age.png" width="750" align="center">
 
 
 ## Modeling Results
@@ -39,11 +39,11 @@ After trying Decision Trees, Logistic Regression, K Nearest Neighbors, Random Fo
 
 Here is the confusion matrix for the XGBoost Classifier model:
 
-<img src="images/confusion_matrix.png" width="750" align="center">
+<img src="images/confusionmatrix.png" width="750" align="center">
 
 I used this model to determine which of the features have the greatest influence on the target, and found membership category to be far and away the most important feature. Following this category are customers who are located in villages and customers who have given feedback about customer care quality.
 
-<img src="images/features.png" width="750" align="center">
+<img src="images/featureimp.png" width="750" align="center">
 
 
 ## Answering the Business Question
