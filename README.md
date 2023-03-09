@@ -12,7 +12,7 @@ Taking into account a range of features, like membership status and website usag
 
 The data comes from the ["Customer Churn"](https://www.kaggle.com/datasets/undersc0re/predict-the-churn-risk-rate) dataset, posted by Pawan Trivedi on Kaggle. I tried Decision Trees, Logistic Regression, K Nearest Neighbors, Random Forest, and finally XGBoost Classifier to find the best model for prediction. XGBoost Classifier was the best of the lot, succesfully predicting a little over 94% of targets in the test data. From there, I used the model to indicate the most important features, which were membership_category, village region, and customer care feedback.
 
-Based on all of this, I recommend the company uses XGBoost Classifier moving forward to predict customer churn risk. I also suggest use membership category, village region, and customer care feedback to re-target customers.
+Based on all of this, I recommend the company uses XGBoost Classifier moving forward to predict customer churn risk. I also suggest using membership category, wallet points, and customer care feedback to re-target customers.
 
 There is overfit present in this model and some of the others, which can be solved by improving the data and increasing the amount of data. I had to cut about a quarter of the data out of the analysis, so possibly determining why the values were negative would be a good start.
 
