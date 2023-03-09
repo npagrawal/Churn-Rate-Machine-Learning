@@ -53,11 +53,11 @@ And looking more closely at points in wallet, our second most important feature,
 
 The XGBoost Classifier had a score of over 94% when validated against the test data. This means it successfully predicted customers who were at risk of churn 94% of the time. It also helped us figure out where the company needs to focus its re-targeting efforts.
 
-Based on all of this, I recommend the company uses XGBoost Classifier moving forward to predict customer churn risk. I also suggest use membership category, village region, and customer care feedback to re-target customers.
+Based on all of this, I recommend the company uses XGBoost Classifier moving forward to predict customer churn risk. I also suggest use membership category, wallet points, and customer care feedback to re-target customers.
 
 
 ## Conclusions
-Ultimately, I recommend that the company uses XGBoost Classifier moving forward to predict customer churn risk. I also suggest use membership category, village region, and customer care feedback to re-target customers.
+Ultimately, I recommend that the company uses XGBoost Classifier moving forward to predict customer churn risk. I also suggest retargeting customers that have no or basic membership, hold between 500-750 wallet points, and/or have given feedback on customer care.
 
 In the future, the model can be improved with:
 - Incorporating marketing data.
