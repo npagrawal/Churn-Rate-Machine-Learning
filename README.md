@@ -45,6 +45,9 @@ I used this model to determine which of the features have the greatest influence
 
 <img src="images/featureimp.png" width="750" align="center">
 
+And looking more closely at points in wallet, our second most important feature, we can see that most of the at risk customers seem to have between 500-750 points.
+
+<img src="images/points_atrisk.png" width="750" align="center">
 
 ## Answering the Business Question
 
