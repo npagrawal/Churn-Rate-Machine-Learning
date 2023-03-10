@@ -41,7 +41,7 @@ Here is the confusion matrix for the XGBoost Classifier model:
 
 <img src="images/confusionmatrix.png" width="750" align="center">
 
-I used this model to determine which of the features have the greatest influence on the target, and found membership category to be far and away the most important feature. Following this category are customers who are located in villages and customers who have given feedback about customer care quality.
+I used this model to determine which of the features have the greatest influence on the target, and found membership category to be far and away the most important feature. Following this category are points in wallet and whether the customer has given feedback about customer care quality.
 
 <img src="images/featureimp.png" width="750" align="center">
 
@@ -51,7 +51,7 @@ And looking more closely at points in wallet, our second most important feature,
 
 ## Answering the Business Question
 
-The XGBoost Classifier had a score of over 94% when validated against the test data. This means it successfully predicted customers who were at risk of churn 94% of the time. It also helped us figure out where the company needs to focus its re-targeting efforts.
+The XGBoost Classifier had a recall score of over 94% when validated against the test data and a recall score of 96% on the test. This means it successfully predicted customers who were at risk of churn 94% of the time and was pretty good at minimizing false negatives. It also helped us figure out where the company needs to focus its re-targeting efforts.
 
 Based on all of this, I recommend the company uses XGBoost Classifier moving forward to predict customer churn risk. I also suggest use membership category, wallet points, and customer care feedback to re-target customers.
 
@@ -60,8 +60,7 @@ Based on all of this, I recommend the company uses XGBoost Classifier moving for
 Ultimately, I recommend that the company uses XGBoost Classifier moving forward to predict customer churn risk. I also suggest retargeting customers that have no or basic membership, hold between 500-750 wallet points, and/or have given feedback on customer care.
 
 In the future, the model can be improved with:
-- Incorporating marketing data.
-- Using more up-to-the-date data.
+- Using more up-to-the-date, high-quality data.
 - Including data on re-targeting to determine whether re-targeting hurts or helps.
 
 ## Links to Materials
